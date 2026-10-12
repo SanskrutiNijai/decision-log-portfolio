@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decision Log | Live Project</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+      font-family: Arial, sans-serif;
+      background: #f3f6fb;
+      color: #172033;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 520px;
+      padding: 40px 28px;
+      text-align: center;
+      background: white;
+      border: 1px solid #e1e7f0;
+      border-radius: 18px;
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.06);
+    }
+
+    h1 {
+      margin-bottom: 12px;
+      font-size: 30px;
+    }
+
+    p {
+      color: #596579;
+      line-height: 1.7;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 14px 24px;
+      border-radius: 9px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: #1d4ed8;
+    }
+
+    .note {
+      margin-top: 24px;
+      font-size: 13px;
+      overflow-wrap: anywhere;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="card">
+    <h1>Decision Log</h1>
+
+    <p>
+      Thank you for viewing my project.
+      Click below to explore the live application.
+    </p>
+
+    <a
+      class="button"
+      href="https://decision-log.nijaisanskruti.workers.dev/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      View Live Project ↗
+    </a>
+
+    <p class="note">
+      Live demo hosted on Cloudflare Workers.
+    </p>
+  </main>
+</body>
+</html>
